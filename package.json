@@ -134,7 +134,6 @@
     "vue-tsc": "^0.28.10"
   },
   "resolutions": {
-    "//": "Used to install imagemin dependencies, because imagemin may not be installed in China. If it is abroad, you can delete it",
     "bin-wrapper": "npm:bin-wrapper-china",
     "rollup": "^2.56.3"
   },
@@ -149,6 +148,5 @@
   "homepage": "https://github.com/anncwb/vue-vben-admin",
   "engines": {
     "node": "^12 || >=14"
-  },
-  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+  }
 }
