@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue';
 import vueJsx from '@vitejs/plugin-vue-jsx';
 import legacy from '@vitejs/plugin-legacy';
 import purgeIcons from 'vite-plugin-purge-icons';
-import windiCSS from 'vite-plugin-windicss';
+// import windiCSS from 'vite-plugin-windicss';
 import vueSetupExtend from 'vite-plugin-vue-setup-extend';
 import AutoImport from 'unplugin-auto-import/vite';
 import { configHtmlPlugin } from './html';
@@ -36,7 +36,7 @@ export function createVitePlugins(viteEnv: ViteEnv, isBuild: boolean) {
   ];
 
   // vite-plugin-windicss
-  vitePlugins.push(windiCSS());
+  // vitePlugins.push(windiCSS());
 
   // TODO
   !isBuild && vitePlugins.push(configHmrPlugin());
