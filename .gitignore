@@ -31,9 +31,6 @@ pnpm-debug.log*
 # Ignore .yarn.lock
 yarn.lock
 
-# Ignore .auto-imports.d file
-auto-imports.d.ts
-
-# Ignore .components.d file
 components.d.ts
 pnpm-lock.yaml
+src/auto-import.d.ts
